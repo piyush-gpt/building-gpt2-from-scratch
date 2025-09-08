@@ -1,6 +1,6 @@
 # 🧩 Building GPT-2 from Scratch
 
-This repository contains an educational implementation of **GPT-2**, built entirely from scratch inside a Jupyter/Colab notebook.  
+This contains an implementation of **GPT-2**, built entirely from scratch inside a Colab notebook.  
 The goal is to break down how large language models like GPT-2 work internally, by coding each building block step by step.
 
 ---
@@ -81,9 +81,4 @@ Click the badge below to open and run the notebook interactively:
 - [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)  
 - [Language Models are Unsupervised Multitask Learners (Radford et al., 2019)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)  
 
----
 
-## ✅ Future Work
-- Train on larger datasets  
-- Add sampling strategies (top-k, top-p) for text generation  
-- Compare with Hugging Face’s GPT-2 for validation  
