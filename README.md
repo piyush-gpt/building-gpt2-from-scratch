@@ -41,41 +41,8 @@ This helps stabilize training and preserve information across layers.
 Instead of normalizing across the batch, **LayerNorm** normalizes across features within each token.  
 This keeps training stable and accelerates convergence. GPT-2 uses the **Pre-LN** setup (normalization before each sublayer).
 
----
 
-## 📂 Repository Structure
-```
-.
-├── building_gpt2_from_scratch.ipynb   # Main notebook with implementation
-├── README.md                          # Documentation (this file)
-```
 
----
-
-## ⚡ Getting Started
-
-### Run in Google Colab
-Click the badge below to open and run the notebook interactively:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo>/blob/main/building_gpt2_from_scratch.ipynb)
-
-### Run Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-2. Install dependencies:
-   ```bash
-   pip install torch numpy
-   ```
-3. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-4. Open `building_gpt2_from_scratch.ipynb` and execute the cells.
-
----
 
 ## 📖 References
 - [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)  
